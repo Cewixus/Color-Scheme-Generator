@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Color generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Color Scheme Generator</h1>
+        <div class="copied-message" id="copied-message">Copied!</div>
+        <div class="main-container">
+            <div class="utility-container">
+                <input type="color" class="color-input" id="color-input">
+                <select class="select-color" id="select-color">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button class="get-button" id="get-button">Get color scheme</button>
+            </div>
+            <div class="color-container" id="color-container">
+
+            </div>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
